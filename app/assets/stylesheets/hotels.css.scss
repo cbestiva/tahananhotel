@@ -7,3 +7,55 @@
   color: #FFB55B;
   font-weight: bolder;
 }
+
+#slider1_container {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+/*jssor slider arrow navigator skin 19 css*/
+.jssora19l, .jssora19r, .jssora19ldn, .jssora19rdn {
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  background: url(/assets/a19.png) no-repeat;
+  overflow:hidden;
+}
+.jssora19l { 
+  background-position: -5px -35px; 
+}
+.jssora19r { 
+  background-position: -65px -35px; 
+}
+.jssora19l:hover { 
+  background-position: -125px -35px; 
+}
+.jssora19r:hover { 
+  background-position: -185px -35px; 
+}
+.jssora19ldn { 
+  background-position: -245px -35px; 
+}
+.jssora19rdn { 
+  background-position: -305px -35px; 
+}
+
+/*left arrow style*/
+/*.jssora19l {
+  width: 50px;
+  height: 50px;
+  top: 123px;
+  left: 8px;
+}*/
+
+/*right arrow style*/
+/*.jssora19r {
+  width: 50px;
+  height: 50px;
+  top: 123px;
+  right: 8px;
+}*/
