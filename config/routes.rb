@@ -1,5 +1,5 @@
 TahananhotelApp::Application.routes.draw do
-  get "hotels/index"
+  get "/tahanan", to: "hotels#index", as: :home_url
 
   root to: "hotels#index"
 end
