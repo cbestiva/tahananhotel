@@ -8,13 +8,22 @@
   font-weight: bolder;
 }
 
-#slider1_container {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  width: 700px;
-  height: 400px;
+/*img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}*/
+
+.mainslider_container {
+  display: block;
   overflow: hidden;
+  margin: 20px auto 0 auto;
+  width: 80%;
+  height: 500px;
+}
+
+#slider1_container {
+  padding: 0px;
 }
 
 /*jssor slider arrow navigator skin 19 css*/
@@ -44,18 +53,21 @@
   background-position: -305px -35px; 
 }
 
-/*left arrow style*/
-/*.jssora19l {
-  width: 50px;
-  height: 50px;
-  top: 123px;
-  left: 8px;
-}*/
-
-/*right arrow style*/
-/*.jssora19r {
-  width: 50px;
-  height: 50px;
-  top: 123px;
-  right: 8px;
-}*/
+/*bullet navigator skin 14*/
+.jssorb14 div, .jssorb14 div:hover, .jssorb14 .av {
+  background: url(/assets/b14.png) no-repeat;
+  overflow:hidden;
+  cursor: pointer;
+}
+.jssorb14 div { 
+  background-position: -9px -9px; 
+}
+.jssorb14 div:hover, .jssorb14 .av:hover { 
+  background-position: -39px -9px; 
+}
+.jssorb14 .av { 
+  background-position: -69px -9px; 
+}
+.jssorb14 .dn, .jssorb14 .dn:hover { 
+  background-position: -99px -9px; 
+}
