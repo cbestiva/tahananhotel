@@ -2,7 +2,8 @@ var initialize = function() {
 
   var jssor_slider_starter = function(containerId) {
     var options = {
-      // $AutoPlay: true,
+      $AutoPlay: true,
+      $AutoPlayInterval: 5000,
       $ArrowNavigatorOptions: {
         $Class: $JssorArrowNavigator$,
         $ChanceToShow: 2,

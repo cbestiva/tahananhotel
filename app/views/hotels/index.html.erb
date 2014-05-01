@@ -41,7 +41,7 @@
       <div class="row">
         <div class="col-md-6">
         <p>
-          You can spend the rest of you day discovering the wonders of San Pablo City's famous Seven Lakes or
+          You can spend the rest of your day discovering the wonders of San Pablo City's famous Seven Lakes or
           delight yourself in the cities' many offerings of native delicacies, handcrafts, and calendared local
           activities.
         </p>
@@ -56,15 +56,42 @@
           <li>Pandin Lake</li>
         </ul>
         </div>
-      <div class="col-sm-6 map_container">
-        <div id="map-canvas"></div>
+      <div class="col-md-6">
+        Address: Dagatan Blvd (Sampaloc Lake), San Pablo City, Laguna, Philippines
+        <div class="map_container">
+          <div id="map-canvas"></div>
+        </div>
+        <div class="directions_button_container">
+          <button class="btn btn-xs btn-primary" data-toggle="modal" data-target=".directions_modal">Directions</button>
+        </div>
+        <div class="modal fade directions_modal" tabindex="-1" role="dialog" aria-labelledby="directionsModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="directionsModalLabel">How to Get Here:</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  From Manila, after San Pablo border, stay on the Maharlika Highway. You will see a Caltex
+                  station to the left, immediately before a fork in the highway. The right side of the fork
+                  leads straight to Lucena; the left leads to San Pablo City proper. Take the left road. At
+                  the junction to Calauan, take the main avenue to your right - Rizal Ave. Turn left at the 
+                  corner of San Pablo Central School. Follow the road beyond City Hall. As soon as you see 
+                  the lake, turn left on the perimeter road. Tahanan Hotel will be on your left.
+                </p>
+                <img class="directions_map img-responsive" src="/assets/directions_map1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
   <h3>Plan Your Stay</h3>
   CALL US AT
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     Tel. No.: (049) 562-5855<br>
     (049) 562-5851<br>
     Manila Line: (02) 520-6089<br>
