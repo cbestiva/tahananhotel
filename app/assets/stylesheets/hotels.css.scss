@@ -3,9 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/ 
 */
 
-.navbar-brand {
+body {
+  padding-top: 70px;
+}
+
+.navbar-brand.hotel {
   font-family: 'Parisienne', cursive;
   font-size: 25px;
+  color: #D94011;
 }
 
 .hotel_name {
