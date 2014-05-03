@@ -10,4 +10,8 @@ class HotelsController < ApplicationController
 
   def rooms
   end
+
+  def testimonials
+  end
+  
 end
