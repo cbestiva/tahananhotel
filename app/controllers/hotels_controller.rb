@@ -13,5 +13,7 @@ class HotelsController < ApplicationController
 
   def testimonials
   end
-  
+
+  def booking
+  end
 end

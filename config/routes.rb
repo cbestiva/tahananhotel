@@ -7,4 +7,5 @@ TahananhotelApp::Application.routes.draw do
   get "/tahanan/packages", to: "hotels#packages", as: :packages_url
   get "/tahanan/rooms", to: "hotels#rooms", as: :rooms_url
   get "/tahanan/testimonials", to: "hotels#testimonials", as: :testimonials_url
+  get "/tahanan/booking", to: "hotels#booking", as: :booking_url
 end
