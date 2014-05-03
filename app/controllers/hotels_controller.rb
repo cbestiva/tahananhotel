@@ -7,4 +7,7 @@ class HotelsController < ApplicationController
 
   def packages
   end
+
+  def rooms
+  end
 end
