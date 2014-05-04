@@ -2,7 +2,7 @@
 
 Tahanan ni Aling Meding Hotel is my mom's and her 10 siblings' mansion in Laguna, San Pablo Philippines. 
 This is Tahanan's original website built in 2010: http://www.tahananhotel.com/
-I built this as a personal project, to improve my front-end skills.
+I built this as a personal project, to give the old site a new look and to improve my front-end skills.
 
 Technologies used:
 
