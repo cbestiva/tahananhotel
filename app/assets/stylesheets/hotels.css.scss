@@ -3,34 +3,45 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/ 
 */
 
+.navbar.navbar-default {
+  border-top: 10px solid #6E0000;
+  margin-bottom: 0px;
+}
+
 .navbar-header, .navbar-collapse {
   /*background-color: black;*/
 }
 
+body {
+  background: url('http://www.appleipadwallpapers.com/wp-content/uploads/00160_full.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
 .inner_body {
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .navbar-brand.hotel {
   font-family: 'Parisienne', cursive;
   font-size: 23px;
-  color: #D94011;
+  color: #6E0000;
 }
 
 .navbar-nav.navbar-right:last-child {
   margin-right: 0px;
 }
 
-/*.hotel_name {
-  color: #FFB55B;
-  font-weight: bolder;
-}*/
+a {
+  color: #0F54AA;
+}
 
 .mainslider_container {
   display: block;
   overflow: hidden;
-  margin: 20px auto 0 auto;
-  padding-top: 31px;
+  margin: 0 auto 0 auto;
+  /*padding-top: 31px;*/
   width: 100%;
 /*  height: 500px;*/
 }
@@ -94,7 +105,7 @@
 }
 
 .location_header {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .map_container {
@@ -115,16 +126,22 @@
   margin: 0 auto;
 }
 
+/*.directions_btn {
+  margin-bottom: 50px;
+}
+*/
 footer {
-  background-color: #FFCF37;
-  opacity: .9;
-  /*color: white;*/
+  background-color: #eee;
+  /*opacity: .9;*/
+  /*color: black;*/
+  border-top: 5px solid #6E0000; position: relative;
+  text-align: center;
 }
 
 .planstay_header {
-  margin-top: 100px;
+  margin-top: 20px;
   text-align: center;
-  padding-top: 20px;
+
 }
 
 .contact_container {
